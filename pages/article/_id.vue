@@ -7,6 +7,13 @@
       <li>UPDATE:{{ time(data.updatedAt) }}</li>
     </ul>
 
+    <a
+      href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+      class="twitter-share-button"
+      data-show-count="false"
+      >Tweet</a
+    >
+
     <div class="tags">
       <div class="tag" v-for="(data, id) in data.tags" :key="id">
         <nuxt-link v-text="data.tagname" :to="'/tag/' + data.id"></nuxt-link>
