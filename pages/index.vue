@@ -24,6 +24,7 @@
               ></nuxt-link>
             </div>
           </div>
+          <div class="clear"></div>
         </div>
       </div>
     </div>
@@ -113,7 +114,11 @@ export default {
 
 .article {
   border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
   position: relative;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .frame {
