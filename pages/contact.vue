@@ -28,7 +28,6 @@ export default {
   head() {
     return {
       title: "お問い合わせ",
-      meta: [{ hid: "robots", name: "robots", content: "noindex" }],
     };
   },
 };
